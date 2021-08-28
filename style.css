@@ -60,19 +60,23 @@ h1 {
     flex-flow: row wrap;
 }
 
-button {
-    margin: .8rem auto;
-    display: block;
-    height: 2.5rem;
-    text-align: center;
+
+#btn-translate {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin: 1rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    width: 7rem;
-    border: 2px solid black;
-    font-size: large;
+    font-size: larger;
     font-weight: bold;
-    background-color: rgb(238, 201, 81);
+    margin-top: 2em;
+    outline: none;
 }
+
+#btn-translate:hover {
+    border-radius: 0.8em;
+}
+
 
 }
 
